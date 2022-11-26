@@ -19,7 +19,7 @@ public class EvenPositionElement {
 
 		System.out.println();
 		System.out.println("\nEven position elements in array are:");
-		for (int i = 1; i < array.length; i = i + 2) {
+		for (int i = 0; i < array.length; i = i + 2) {
 			System.out.print((array[i] + " "));
 		}
 	}
